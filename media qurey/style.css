@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    margin: 0;
+
+
+    
+}
+
+.invitation-card {
+    width: 400px;
+    background-color: pink;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform:scaleX(10deg)
+    
+    
+}
+.invitation-card:hover{
+    border: 10px solid palevioletred; 
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-header h1 {
+    color: #333;
+}
+
+.card-body img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    line-height: 1.2;
+    margin-bottom: 10px;
+    background-color: pink;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.card-footer {
+    border-top: 2px solid #ccc;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
